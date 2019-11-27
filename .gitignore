@@ -1,0 +1,7 @@
+.idea
+site/
+env/
+*.out
+node_modules/
+process.yml
+**/.DS_Store
