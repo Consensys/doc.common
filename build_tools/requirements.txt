@@ -1,4 +1,4 @@
-mkdocs>=1.0.4
+git+https://github.com/NicolasMassart/mkdocs.git@fix/copy#egg=mkdocs
 pymdown-extensions>=6.0
 mkdocs-material>=4.3
 Markdown>=3.1
