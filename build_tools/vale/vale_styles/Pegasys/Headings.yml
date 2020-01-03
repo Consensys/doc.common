@@ -10,8 +10,8 @@ exceptions:
   - Besu
   - EthSigner
   - Orion
-  - HyperLedger
-  - Pegasys
+  - Hyperledger
+  - PegaSys
   - Consensys
   - Ethereum
   - ETH
