@@ -44,8 +44,14 @@
   {% if page.edit_url and config.extra.doc_site_edit_url %}
   <a href="{{ page.edit_url | replace(config.repo_url, config.extra.doc_site_edit_url) }}"
      title="{{ lang.t('edit.link.title') }}"
-     class="md-icon md-content__icon">&#xE3C9;<!-- edit --></a>
+     class="md-icon md-content__icon">{% include ".icons/material/pencil.svg" %}</a>
   {% endif %}
+
+{% block source %}
+  {% if page and page.meta and page.meta.source %}
+    {% include "partials/source-link.html" %}
+  {% endif %}
+{% endblock %}
 
   {% if page.meta.git_revision_date_localized %}
   <small><br><i>Updated on {{ page.meta.git_revision_date_localized }}</i></small>
@@ -63,42 +69,4 @@
   <!-- Content -->
   {{ page.content }}
 
-  <!-- Source files -->
-  {% block source %}
-    {% if page and page.meta and page.meta.source %}
-      <h2 id="__source">{{ lang.t("meta.source") }}</h2>
-      {% set repo = config.repo_url %}
-      {% if repo | last == "/" %}
-        {% set repo = repo[:-1] %}
-      {% endif %}
-      {% set path = page.meta.path | default([""]) %}
-      {% set file = page.meta.source %}
-        <a href="{{ [repo, path, file] | join('/') }}"
-           title="{{ file }}" class="md-source-file">
-          {{ file }}
-        </a>
-    {% endif %}
-  {% endblock %}
-{% endblock %}
-
-{% block fonts %}
-
-<!-- Load fonts from Google -->
-{% if font != false %}
-<link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family={{
-              font.text | replace(' ', '+') + ':300,400,400i,700|' +
-              font.code | replace(' ', '+')
-            }}&display=fallback" />
-<style>
-          body, input {
-            font-family: "{{ font.text }}", "Helvetica Neue",
-              Helvetica, Arial, sans-serif;
-          }
-          pre, code, kbd {
-            font-family: "{{ font.code }}", "Courier New",
-              Courier, monospace;
-          }
-        </style>
-{% endif %}
 {% endblock %}
