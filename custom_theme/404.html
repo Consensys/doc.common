@@ -4,10 +4,11 @@
 {% block content %}
 
 <p style="text-align: center;font-size: 3em">
-  {% if config.theme.logo.icon %}
-    <i class="md-icon">{{ config.theme.logo.icon }}</i>
+  {% if config.theme.logo %}
+    <img src="{{ config.theme.logo | url }}" alt="logo">
   {% else %}
-    <img src="{{ config.theme.logo | url }}" height="3em" />
+    {% set icon = config.theme.icon.logo or "material/library" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
   {% endif %}
 </p>
 
