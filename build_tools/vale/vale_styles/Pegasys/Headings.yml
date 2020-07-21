@@ -9,6 +9,8 @@ indicators:
 exceptions:
   - Besu
   - EthSigner
+  - GoQuorum
+  - Quorum
   - Orion
   - Hyperledger
   - PegaSys
