@@ -20,6 +20,9 @@
         },
         {
             "pattern": "^http(s)?://gitlab.com/ConsenSys/client/fr/core-stack/orchestrate"
+        },
+        {
+            "pattern": "http://remix.ethereum.org"
         }
     ]
 }
