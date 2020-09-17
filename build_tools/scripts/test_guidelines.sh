@@ -1,8 +1,3 @@
 #!/usr/bin/env bash
 
-set -o pipefail
-
-exec < /dev/tty
-
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-circleci config process .circleci/config.yml > .circleci/process.yml && circleci local execute -c .circleci/process.yml --job vale > ${DIR}/test_guidelines.log 2>&1
+common/build_tools/scripts/run_job.sh vale
