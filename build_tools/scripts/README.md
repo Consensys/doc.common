@@ -20,9 +20,9 @@ Run the following commands:
 - `common/build_tools/scripts/test_guidelines.sh` to test the doc against our writing guidelines
 - `common/build_tools/scripts/test_links.sh` to test hyperlinks are not broken
 - `common/build_tools/scripts/test_lint.sh` to test that Markdown syntax is correct
-- `common/build_tools/scripts/test.sh` to test all tests
+- `common/build_tools/scripts/test_all.sh` to test all tests
 
 ## Previewing the doc site
 
-It's possible to render doc locally to check tant everything is displayed correctly. Refer to the\
-common repos wiki : https://github.com/PegaSysEng/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation
+It's possible to render doc locally to check that everything is displayed correctly.
+Refer to the [common repos wiki](https://github.com/PegaSysEng/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation)
