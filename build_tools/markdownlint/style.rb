@@ -19,3 +19,7 @@ exclude_rule 'single-h1'
 exclude_rule 'no-space-in-code'
 exclude_rule 'no-duplicate-header'
 exclude_rule 'first-line-h1'
+
+# Because I hate HTML but sometimes a table is hard to format in MD
+# now in info style.
+exclude_rule 'no-inline-html'

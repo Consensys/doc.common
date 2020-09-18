@@ -13,3 +13,6 @@ rule 'single-h1'
 rule 'no-space-in-code'
 rule "no-duplicate-header", :allow_different_nesting => true
 rule 'first-line-h1'
+
+# Because I hate HTML but sometimes a table is hard to format in MD
+rule 'no-inline-html'
