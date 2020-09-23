@@ -10,7 +10,7 @@
             "pattern": "^http(s)?://gitlab.com/ConsenSys/client/fr/core-stack/orchestrate"
         },
         {
-            "pattern": "^http(s)?://remix.ethereum.org"
+            "pattern": "^http(s)?://consensys.net"
         }
     ],
     "aliveStatusCodes":[200, 206],
