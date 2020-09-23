@@ -3,6 +3,8 @@ line-length:
   code_blocks: false
   tables: false
 
+no-bare-urls: false
+
   # excluded rule for error as kramdown has a bug.
   # see https://github.com/markdownlint/markdownlint/issues/294#issuecomment-600600407
   # these are now in this info style.
