@@ -10,10 +10,12 @@
     "test:links:check": "find . -name \\*.md ! -path \"./node_modules/*\" -exec ./node_modules/markdown-link-check/markdown-link-check -v -c common/build_tools/linkchecker/link_check_conf.json {} \\; 2>&1 | tee linkchecker.out",
     "test:links:verify": "! grep -n '[✖]\\|ERROR' ./linkchecker.out",
     "test:links": "npm run test:links:check && npm run test:links:verify",
-    "test:markdown": "node ./node_modules/markdownlint-cli/markdownlint.js --ignore 'env' --ignore 'node_modules' --config common/build_tools/markdownlint/lint-base-style.yml '**/*.md' 2>&1 | tee ./markdownlint.out",
+    "test:markdown:error": "node ./node_modules/markdownlint-cli/markdownlint.js --ignore 'env' --ignore 'node_modules' --config common/build_tools/markdownlint/lint-base-style.yml '**/*.md' 2>&1 | tee ./markdownlint.out",
     "test:markdown:info": "node ./node_modules/markdownlint-cli/markdownlint.js --ignore 'env' --ignore 'node_modules' --config common/build_tools/markdownlint/lint-info-style.yml '**/*.md' 2>&1 | tee ./markdownlint_info.out",
-    "test": "npm run test:links",
-    "fix:markdown": "node ./node_modules/markdownlint-cli/markdownlint.js --fix --config common/build_tools/markdownlint/lint-base-style.yml '**/*.md'"
+    "test:markdown:verify": "! grep -nE 'MD[0-9]+/.+' ./markdownlint.out",
+    "test:markdown": "npm run test:markdown:error && npm run test:markdown:verify",
+    "fix:markdown": "node ./node_modules/markdownlint-cli/markdownlint.js --fix --config common/build_tools/markdownlint/lint-base-style.yml '**/*.md'",
+    "test": "npm run test:links && npm run test:markdown"
   },
   "repository": {
     "type": "git",
