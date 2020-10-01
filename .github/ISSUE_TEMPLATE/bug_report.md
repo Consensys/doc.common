@@ -11,7 +11,7 @@ assignees: NicolasMassart
 A clear and concise description of what the bug is.
 
 **Indicate the part where the issue happens**
-doc.common wiki, build configs, mkdocs templates,…
+doc.common wiki, build configuration, MkDocs templates,…
 
 **To Reproduce**
 Steps to reproduce the behavior:

@@ -1,5 +1,6 @@
-# Pegasys common doc repository
+# ConsenSys common doc repository
 
-Common code and guidelines for all Pegasys product documentations
+Common code and guidelines for ConsenSys product documentations
 
-This repository is to be included as a submodule on each doc site.
+This repository is to be included as a submodule on ConsenSys software doc site.
+

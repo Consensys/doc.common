@@ -7,8 +7,8 @@ pushing them as a pull request.
 
 For this, you need Circle CI CLI and Docker installed on your computer:
 
-- Circle CI CLI https://circleci.com/docs/2.0/local-cli/
-- Docker https://docs.docker.com/get-docker/
+- [Circle CI CLI](https://circleci.com/docs/2.0/local-cli/)
+- [Docker](https://docs.docker.com/get-docker/)
 
 ## Running the scripts
 
@@ -24,5 +24,6 @@ Run the following commands:
 
 ## Previewing the doc site
 
-It's possible to render doc locally to check that everything is displayed correctly.
-Refer to the [common repos wiki](https://github.com/PegaSysEng/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation)
+It's possible to render doc locally or preview on ReadTheDocs to check that everything is displayed correctly.
+
+Refer to the [common repository wiki](https://github.com/PegaSysEng/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation)
