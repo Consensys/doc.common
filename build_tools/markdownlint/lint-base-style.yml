@@ -4,7 +4,6 @@ no-trailing-punctuation:
 ul-indent:
   indent: 4
 
-no-bare-urls: false
 code-block-style: false
 line-length: false
 
