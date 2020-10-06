@@ -1,4 +1,6 @@
+Ansible
 Besu
+Bintray
 ConsenSys
 EthSigner
 Ethereum
@@ -39,3 +41,4 @@ withdrawable
 [sS]ubcommand[s]?
 [vV]alidator[s]?
 [tT]estnet[s]?
+[tT]ruststore[s]?
