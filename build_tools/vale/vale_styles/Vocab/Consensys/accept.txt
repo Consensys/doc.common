@@ -30,6 +30,7 @@ tmux
 [uU]nencrypted
 Web3Signer
 withdrawable
+[aA]utogenerated
 [aA]ttester[s]?
 [bB]lockchain[s]?
 [bB]oolean[s]?
