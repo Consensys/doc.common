@@ -10,12 +10,15 @@ GoQuorum
 Gradle
 Grafana
 Hashicorp
+Homebrew
 Hyperledger
 Infura
+libsodium
 Logstash
 Medalla
 Metamask
 MkDocs
+Nginx
 Orion
 PegaSys
 Prysmatic
@@ -38,7 +41,9 @@ withdrawable
 [mM]ainnet[s]?
 [mM]ultiaddresse[s]?
 [mM]ultikey[s]?
+[rR]edistributable[s]?
 [sS]ubcommand[s]?
-[vV]alidator[s]?
 [tT]estnet[s]?
 [tT]ruststore[s]?
+[uU]pstream[s]?
+[vV]alidator[s]?
