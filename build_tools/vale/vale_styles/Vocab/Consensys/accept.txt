@@ -1,9 +1,11 @@
 Ansible
 Besu
 Bintray
+Codefi
 ConsenSys
 EthSigner
 Ethereum
+GitHub
 Gitter
 Goerli
 GoQuorum
@@ -21,6 +23,8 @@ MkDocs
 Nginx
 Orion
 PegaSys
+Postgres
+Protobuf
 Prysmatic
 Quorum
 ReadTheDocs
