@@ -30,6 +30,7 @@ exceptions:
   - JRE
   - JSON
   - PATH
+  - PBFT
   - POA
   - POS
   - POST
