@@ -8,6 +8,7 @@ second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
 # ... with the exception of these:
 exceptions:
   - API
+  - AWS
   - CLA
   - CLI
   - CPU
@@ -25,6 +26,7 @@ exceptions:
   - IBFT
   - IBFT2
   - IDE
+  - IPC
   - JAR
   - JDK
   - JRE
@@ -49,6 +51,7 @@ exceptions:
   - TOML
   - URI
   - URL
+  - WAR
   - WEI
   - XML
   - YAML
