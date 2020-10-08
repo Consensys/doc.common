@@ -31,6 +31,7 @@ exceptions:
   - JDK
   - JRE
   - JSON
+  - P2P
   - PATH
   - PBFT
   - POA

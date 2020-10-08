@@ -1,4 +1,5 @@
 Ansible
+BerkeleyDB
 Besu
 Bintray
 Cakeshop
@@ -19,9 +20,12 @@ Homebrew
 Hyperledger
 InfluxDB
 Infura
+Jasypt
 JMeter
+jnacl
 Kafka
 libsodium
+Logback
 Logstash
 Logrus
 Medalla
@@ -39,6 +43,7 @@ Raft
 ReadTheDocs
 Redis
 Slack
+Splunk
 Teku
 Telegraf
 tmux
@@ -53,9 +58,13 @@ withdrawable
 [bB]lockchain[s]?
 [bB]oolean[s]?
 [bB]ootnode[s]?
+[bB]roadcast(ing|ed)
+[cC]lasspath[s]?
+[cC]ounterpart(y|ies)
 [cC]rafter
 [cC]ryptocurrenc(y|ies)
 [dD]eauthoriz(e|ing)
+[eE]ncryptor[s]?
 [eE]node[s]?
 [gG]eth
 [gG]olang
