@@ -23,6 +23,7 @@ ConsenSys
 etcd
 EthSigner
 Ethereum
+Filecoin
 [gG]eth
 GitHub
 Gitter
