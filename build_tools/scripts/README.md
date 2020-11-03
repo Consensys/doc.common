@@ -26,4 +26,4 @@ Run the following commands:
 
 It's possible to render doc locally or preview on ReadTheDocs to check that everything is displayed correctly.
 
-Refer to the [common repository wiki](https://github.com/PegaSysEng/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation)
+Refer to the [common repository wiki](https://github.com/Consensys/doc.common/wiki/MkDocs-And-Custom-Markdown-Guide#preview-the-documentation)
