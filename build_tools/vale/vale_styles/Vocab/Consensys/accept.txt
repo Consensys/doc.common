@@ -44,6 +44,7 @@ Jasypt
 JMeter
 jnacl
 Kafka
+kalium
 [kK]eystore[s]?
 [kK]eytool[s]?
 libsodium
@@ -93,6 +94,7 @@ tmux
 [tT]oolset[s]?
 [tT]rie[s]?
 [tT]ruststore[s]?
+[uU]pcheck
 underflow[s]?
 [uU]nencrypted
 [uU]ntrusted
