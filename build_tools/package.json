@@ -24,7 +24,7 @@
   "author": "Consensys",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ConsenSys/doc.common/issues"
+    "url": "https://github.com/Consensys/doc.common/issues"
   },
   "homepage": "https://github.com/Consensys/doc.common",
   "dependencies": {
