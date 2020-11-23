@@ -74,6 +74,7 @@ P[oO]W
 Prometheus
 Protobuf
 Prysmatic
+Pyrmont
 [qQ]uorum
 Raft
 ReadTheDocs
