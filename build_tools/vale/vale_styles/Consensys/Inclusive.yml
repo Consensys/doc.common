@@ -1,0 +1,16 @@
+extends: substitution
+message: Consider using %s instead of '%s'
+link: https://github.com/Consensys/doc.common/wiki/Documentation-Style-Guide#5-be-inclusive
+ignorecase: true
+level: error
+swap:
+  below: following
+  'black[ -]?lists?': denylist, excludelist, or blocklist
+  'gray[ -]?lists?': provisional temporary list
+  'white[ -]?lists?': allowlist, trustlist, or safelist
+  masters?: main, parent or primary
+  slaves?: replica or subordinate
+  'm[ae]n': person
+  natives?:  a more precise term like built-in
+  'first[ -]?class citizens?': core feature, top-level
+  h[au]ng: stop responding
