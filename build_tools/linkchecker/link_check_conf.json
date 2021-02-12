@@ -11,6 +11,10 @@
             "pattern": "^http(s)?://gitlab.com/ConsenSys/client/fr/core-stack/orchestrate"
         },
         {
+            "comment": "This is a private repos",
+            "pattern": "^http(s)?://github.com/ConsenSys/orchestrate"
+        },
+        {
             "comment": "Consensys.net now has a ddos attack protection",
             "pattern": "^http(s)?://consensys.net"
         }
