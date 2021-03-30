@@ -4,9 +4,9 @@ link: https://github.com/Consensys/doc.common/wiki/Documentation-Style-Guide#5-b
 ignorecase: true
 level: warning
 swap:
-  'black[ \-]?list(?:ing)?s?': '"denylist", "excludelist", or "blocklist"'
-  'white[ \-]?list(?:ing)?s?': '"allowlist", "trustlist", or "safelist"'
-  'gray[ \-]?list(?:ing)?s?': '"provisional" or "temporary" list'
+  'black[ \-]?list(?ed|(?:ing)?s?)': '"denylist", "excludelist", or "blocklist"'
+  'white[ \-]?list(?ed|(?:ing)?s?)': '"allowlist", "trustlist", or "safelist"'
+  'gr[ae]y[ \-]?list(?ed|(?:ing)?s?)': '"provisional" or "temporary" list'
   'masters?': '"main", "parent" or "primary"'
   'slaves?': '"replica" or "subordinate"'
   'm[ae]n': '"person"'
