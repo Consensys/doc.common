@@ -39,7 +39,7 @@ gRPC
 G?Wei
 HashiCorp
 Homebrew
-hostname[s]?
+[hH]ostname[s]?
 Hyperledger
 InfluxDB
 Infura
@@ -87,14 +87,14 @@ Redis
 [rR]epurposing
 [sS]andbox(?:ed|ing)
 Slack
-slashable
+[sS]lashable
 Splunk
 [sS]ubcommand[s]?
 [sS]ubnet[s]?
 [sS]uborganization[s]?
 Teku
 Telegraf
-testnet[s]?
+[tT]estnet[s]?
 tmux
 [tT]oolset[s]?
 [tT]rie[s]?
@@ -108,5 +108,5 @@ tmux
 [uU]pstream[s]?
 [vV]alidator[s]?
 Web3Signer
-withdrawable
+[wW]ithdrawable
 Zinken
