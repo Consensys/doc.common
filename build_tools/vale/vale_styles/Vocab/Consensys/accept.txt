@@ -69,7 +69,7 @@ Orion
 [pP]arallelization
 PegaSys
 [pP]ermission(?:ing|ed)
-pluggable
+[pP]luggable
 PoA
 Postgres
 PoW
