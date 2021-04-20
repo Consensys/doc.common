@@ -59,7 +59,7 @@ Metamask
 MkDocs
 [mM]ultiaddresse[s]?
 [mM]ultikey[s]?
-[N]amespace[s]?
+[nN]amespace[s]?
 Nginx
 Nodejs
 [nN]once[s]?
