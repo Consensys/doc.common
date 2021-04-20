@@ -1,6 +1,7 @@
 [aA]busable
 Ansible
-(?:auto)?generated
+[aA]rithmetization
+[aA]utogenerat(?:ing|ed)
 [aA]ttester[s]?
 [bB]ackoff
 BerkeleyDB
@@ -28,6 +29,7 @@ Filecoin
 geth
 GitHub
 Gitter
+gnark
 Goerli
 GoQuorum
 golang
