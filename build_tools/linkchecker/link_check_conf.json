@@ -17,6 +17,10 @@
         {
             "comment": "Consensys.net now has a ddos attack protection",
             "pattern": "^http(s)?://consensys.net"
+        },
+        {
+            "comment": "Exclude addresses with extra data variable placeholders (not yet replaced when checking for links)",
+            "pattern": "{{content_vars\\..+}}"
         }
     ],
     "aliveStatusCodes":[200, 206],
