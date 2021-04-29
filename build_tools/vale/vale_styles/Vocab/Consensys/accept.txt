@@ -19,6 +19,8 @@ ConsenSys
 [cC]rafter
 [cC]ryptocurrenc(?:y|ies)
 [dD]eauthoriz(?:e|ing)
+[dD]eserializ(?:e|ing)
+[dD]eserialization
 [eE]ncryptor[s]?
 [eE]ncrypt(?:ed|ing)
 [eE]node[s]?
@@ -57,6 +59,7 @@ Logrus
 [mM]ainnet[s]?
 [mM]arshal(?:ed|ing)
 Medalla
+Merkle
 Metamask
 MkDocs
 [mM]ultiaddresse[s]?
@@ -86,6 +89,9 @@ Redis
 [rR]eentrancy
 [rR]epurposing
 [sS]andbox(?:ed|ing)
+[sS]erializ(?:e|ing)
+[sS]erialization
+Schnorr
 Slack
 [sS]lashable
 Splunk
