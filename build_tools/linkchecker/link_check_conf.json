@@ -23,6 +23,7 @@
             "pattern": "{{content_vars\\..+}}"
         }
     ],
+    "timeout": "30s",
     "aliveStatusCodes":[200, 206],
     "retryOn429":true
 }
