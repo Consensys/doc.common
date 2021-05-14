@@ -1,7 +1,7 @@
 [aA]busable
 Ansible
 [aA]rithmetization
-[aA]utogenerat(?:ing|ed)
+[aA]utogenerat(?:ing|ed)?
 [aA]ttester[s]?
 [bB]ackoff
 BerkeleyDB
@@ -10,7 +10,7 @@ Bintray
 [bB]lockchain[s]?
 [bB]oolean[s]?
 [bB]ootnode[s]?
-[bB]roadcast(?:ing|ed)
+[bB]roadcast(?:ing|ed)?
 Cakeshop
 [cC]lasspath[s]?
 Codefi
@@ -22,7 +22,7 @@ ConsenSys
 [dD]eserializ(?:e|ing)
 [dD]eserialization
 [eE]ncryptor[s]?
-[eE]ncrypt(?:ed|ing)
+[eE]ncrypt(?:ing|ed)?
 [eE]node[s]?
 etcd
 EthSigner
@@ -34,7 +34,7 @@ Gitter
 gnark
 Goerli
 GoQuorum
-golang
+[gG]olang
 Gradle
 Grafana
 gRPC
@@ -57,7 +57,7 @@ Logback
 Logstash
 Logrus
 [mM]ainnet[s]?
-[mM]arshal(?:ed|ing)
+[mM]arshal(?:ing|ed)?
 Medalla
 Merkle
 Metamask
@@ -71,7 +71,7 @@ Nodejs
 Orion
 [pP]arallelization
 PegaSys
-[pP]ermission(?:ing|ed)
+[pP]ermission(?:ing|ed)?
 [pP]luggable
 PoA
 Postgres
@@ -88,7 +88,7 @@ Redis
 [rR]edistributable[s]?
 [rR]eentrancy
 [rR]epurposing
-[sS]andbox(?:ed|ing)
+[sS]andbox(?:ing|ed)?
 [sS]erializ(?:e|ing)
 [sS]erialization
 Schnorr
@@ -108,8 +108,8 @@ tmux
 [tT]ruststore[s]?
 [uU]pcheck
 [uU]nderflow[s]?
-[uU]encrypt(?:ed|ing)
-[uU]nmarshal(?:ed|ing)
+[uU]encrypt(?:ing|ed)?
+[uU]nmarshal(?:ing|ed)?
 [Uu]ntrusted
 [uU]pstream[s]?
 [vV]alidator[s]?
