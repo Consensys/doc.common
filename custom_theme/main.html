@@ -47,11 +47,15 @@
      class="md-icon md-content__icon">{% include ".icons/material/pencil.svg" %}</a>
   {% endif %}
 
-{% block source %}
-  {% if page and page.meta and page.meta.source %}
-    {% include "partials/source-link.html" %}
+  {% block source %}
+    {% if page and page.meta and page.meta.source %}
+      {% include "partials/source-link.html" %}
+    {% endif %}
+  {% endblock %}
+
+  {% if config.extra.warning_banner %}
+  <div class="warning-banner">{{config.extra.warning_banner}}</div>
   {% endif %}
-{% endblock %}
 
   {% if page.meta.git_revision_date_localized %}
   <small><br><i>Updated on {{ page.meta.git_revision_date_localized }}</i></small>

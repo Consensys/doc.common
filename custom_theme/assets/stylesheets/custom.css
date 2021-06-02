@@ -40,6 +40,20 @@
   width: inherit;
 }
 
+.warning-banner{
+  padding: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 0.5em;
+  border-color: red;
+  font-size: x-large;
+  background-color: #ff9999;
+  color: #000;
+}
+.warning-banner a{
+  color: #000;
+}
+
 .md-footer-copyright {
     max-width: 100% !important;
 }
