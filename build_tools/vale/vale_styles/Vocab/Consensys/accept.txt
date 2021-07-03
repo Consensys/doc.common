@@ -59,7 +59,7 @@ Logrus
 [mM]ainnet[s]?
 [mM]arshal(?:ing|ed)?
 Medalla
-Merkle
+[mM]erkle
 Metamask
 MkDocs
 [mM]ultiaddresse[s]?
@@ -69,6 +69,7 @@ Nginx
 Nodejs
 [nN]once[s]?
 Orion
+[oO]nchain
 [pP]arallelization
 PegaSys
 [pP]ermission(?:ing|ed)?
