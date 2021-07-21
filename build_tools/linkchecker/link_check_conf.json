@@ -21,6 +21,9 @@
         {
             "comment": "Exclude addresses with extra data variable placeholders (not yet replaced when checking for links)",
             "pattern": "{{[a-zA-Z_\\-\\.\\[\\]\\']+}}"
+        },
+        {
+            "pattern": "^http(s)?://.+.zendesk.com"
         }
     ],
     "timeout": "30s",
