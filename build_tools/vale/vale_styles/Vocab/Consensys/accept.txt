@@ -60,7 +60,7 @@ Logrus
 [mM]arshal(?:ing|ed)?
 Medalla
 [mM]erkle
-Metamask
+MetaMask
 MkDocs
 [mM]ultiaddresse[s]?
 [mM]ultikey[s]?
