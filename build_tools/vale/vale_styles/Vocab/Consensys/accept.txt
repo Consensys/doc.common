@@ -28,6 +28,7 @@ etcd
 EthSigner
 Ethereum
 Filecoin
+Ganache
 geth
 GitHub
 Gitter
