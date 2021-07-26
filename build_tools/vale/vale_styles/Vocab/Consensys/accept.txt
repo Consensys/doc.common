@@ -15,6 +15,7 @@ Cakeshop
 [cC]lasspath[s]?
 Codefi
 ConsenSys
+[Cc]onsortiums
 [cC]ounterpart(?:y|ies)
 [cC]rafter
 [cC]ryptocurrenc(?:y|ies)
