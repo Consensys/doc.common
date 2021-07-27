@@ -30,7 +30,7 @@ EthSigner
 Ethereum
 Filecoin
 Ganache
-geth
+[gG]eth
 GitHub
 Gitter
 gnark
