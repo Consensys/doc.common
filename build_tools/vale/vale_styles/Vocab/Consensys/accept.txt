@@ -54,6 +54,7 @@ Kafka
 [kK]alium
 [kK]eystore[s]?
 [kK]eytool[s]?
+Kovan
 libsodium
 Logback
 Logstash
@@ -92,6 +93,7 @@ Redis
 [rR]eentrancy
 [rR]epurposing
 [rR]ollup[s]?
+Ropsten
 [sS]andbox(?:ing|ed)?
 [sS]erializ(?:e|ing)
 [sS]erialization
