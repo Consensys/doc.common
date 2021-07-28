@@ -3,6 +3,7 @@ Ansible
 [aA]rithmetization
 [aA]utogenerat(?:ing|ed)?
 [aA]ttester[s]?
+arity
 [bB]ackoff
 BerkeleyDB
 Besu
@@ -118,5 +119,6 @@ tmux
 [uU]pstream[s]?
 [vV]alidator[s]?
 Web3Signer
+Websocket(s)?
 [wW]ithdrawable
 Zinken
