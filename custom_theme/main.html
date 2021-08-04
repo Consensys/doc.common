@@ -23,6 +23,14 @@
     })(window,document,'script','dataLayer','{{config.extra.google.tag_manager}}');</script>
     <!-- End Google Tag Manager -->
   {% endif %}
+  {% if config.extra.no_version_box %}
+    <style type="text/css">
+      /*Disables the RTD version dropdown*/
+      .injected{
+        display: none;
+      }
+    </style>
+  {% endif %}
 {% endblock %}
 
 {% block analytics %}
