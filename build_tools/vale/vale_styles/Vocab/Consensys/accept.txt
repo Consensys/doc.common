@@ -51,6 +51,7 @@ Infura
 Jasypt
 JMeter
 jnacl
+Jubjub
 Kafka
 [kK]alium
 [kK]eystore[s]?
