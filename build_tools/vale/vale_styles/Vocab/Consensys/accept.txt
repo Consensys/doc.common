@@ -20,6 +20,7 @@ ConsenSys
 [cC]ounterpart(?:y|ies)
 [cC]rafter
 [cC]ryptocurrenc(?:y|ies)
+[dD]app[s]?
 [dD]eauthoriz(?:e|ing)
 [dD]eserializ(?:e|ing)
 [dD]eserialization
