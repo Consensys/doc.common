@@ -60,8 +60,8 @@ Kafka
 Kovan
 libsodium
 Logback
-Logstash
 Logrus
+Logstash
 [mM]ainnet[s]?
 [mM]arshal(?:ing|ed)?
 Medalla
@@ -74,8 +74,9 @@ MkDocs
 Nginx
 Nodejs
 [nN]once[s]?
-Orion
+[oO]ffchain
 [oO]nchain
+Orion
 [pP]arallelization
 PegaSys
 [pP]ermission(?:ing|ed)?
