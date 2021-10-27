@@ -80,6 +80,7 @@ Orion
 [pP]arallelization
 PegaSys
 [pP]ermission(?:ing|ed)?
+[pP]laintext
 [pP]luggable
 PoA
 Postgres
