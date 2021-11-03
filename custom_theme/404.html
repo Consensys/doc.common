@@ -5,9 +5,9 @@
 
 <p style="text-align: center;font-size: 3em">
   {% if config.extra.inverted_logo %}
-    <img src="{{ config.extra.inverted_logo | url }}" alt="logo">
+    <img src="{{ config.extra.inverted_logo | url }}" alt="logo" style="max-height: 3em">
   {% elif config.theme.logo %}
-    <img src="{{ config.theme.logo | url }}" alt="logo">
+    <img src="{{ config.theme.logo | url }}" alt="logo" style="max-height: 3em">
   {% else %}
     {% set icon = config.theme.icon.logo or "material/library" %}
     {% include ".icons/" ~ icon ~ ".svg" %}
