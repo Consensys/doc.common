@@ -1,4 +1,3 @@
-[aA]busable
 Ansible
 [aA]rithmetization
 [aA]utogenerat(?:ing|ed)?
