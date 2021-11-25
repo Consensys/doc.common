@@ -4,7 +4,7 @@
   background-color: var(--md-primary-fg-color--light);
 }
 .feedback a {
-  color: var(--md-primary-fg-color) !important;
+  color: var(--md-text-color) !important;
 }
 .md-nav--secondary .md-nav__item .md-nav__item a.md-nav__link {
   font-weight: normal;
