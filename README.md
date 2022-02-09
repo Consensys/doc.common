@@ -10,3 +10,5 @@ You're viewing the code of this repository, which includes:
 * MkDocs configurations and requirement files.
 
 View the [wiki](https://github.com/ConsenSys/doc.common/wiki) of this repository for documentation guidelines.
+
+If you have any questions about ConsenSys products or documentation, ask us on [Discord](https://discord.gg/6cfyqRGbzq).
