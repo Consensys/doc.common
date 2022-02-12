@@ -1,13 +1,13 @@
-# Vale Styles
+# Vale styles
 
-Styles in this directory are all from external sources except the Consensys one.
+Every style in this directory, except the ConsenSys style, is from an external source.
 
-Each external style folder are licensed under the terms specified in the directory LICENCE or README.md file.
+Every external style folder is licensed under the terms specified in the `LICENSE` or `README` file.
 
 ## Versions
 
-External style are imported form the following releases:
+External styles are imported from the following releases:
 
-- Write-Good style: <https://github.com/errata-ai/write-good/releases/tag/v0.4.0>
-- Proseling style: <https://github.com/errata-ai/proselint/releases/tag/v0.3.1>
-- Microsoft style: <https://github.com/errata-ai/Microsoft/releases/tag/v0.7.1>
+- [Write-Good style version 0.4.0](https://github.com/errata-ai/write-good/releases/tag/v0.4.0)
+- [Proseling style version 0.3.1](https://github.com/errata-ai/proselint/releases/tag/v0.3.1)
+- [Microsoft style version 0.7.1](https://github.com/errata-ai/Microsoft/releases/tag/v0.7.1)
