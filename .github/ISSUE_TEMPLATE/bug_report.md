@@ -1,33 +1,25 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a bug report.
 title: ''
 labels: DocOps
 assignees: NicolasMassart
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Describe the bug
 
-**Indicate the part where the issue happens**
-doc.common wiki, build configuration, MkDocs templates,…
+<!-- Add a clear and concise description of what the documentation bug is.
+Include steps to reproduce the bug and what you expected to happen. -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '…'
-2. Click on '…'
-3. Scroll down to '…'
-4. See error
+## System settings
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+<!-- Add the following information about your system: -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+- OS and version:
+- Browser and version:
+- Plugins activated in your browser:
 
-**System (please complete the following information):**
- - OS: [Windows, macOS, Linux]
+## More context
 
-**Additional context**
-Add any other context about the problem here.
+<!-- Add any other context about the problem here, for example, screenshots or a small demo video. -->
