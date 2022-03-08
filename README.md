@@ -11,4 +11,4 @@ You're viewing the code of this repository, which includes:
 
 View the [wiki](https://github.com/ConsenSys/doc.common/wiki) of this repository for documentation guidelines.
 
-If you have any questions about ConsenSys products or documentation, ask us on [Discord](https://discord.gg/6cfyqRGbzq).
+If you have any questions about ConsenSys products or documentation, request support on [Discord](https://discord.gg/6cfyqRGbzq).
