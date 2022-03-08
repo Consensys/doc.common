@@ -9,6 +9,6 @@ You're viewing the code of this repository, which includes:
 * Material for MkDocs template overrides.
 * MkDocs configurations and requirement files.
 
-View the [wiki](https://github.com/ConsenSys/doc.common/wiki) of this repository for documentation guidelines.
+View the [Doctools site](https://consensys.net/docs/doctools/) for documentation guidelines.
 
 If you have any questions about ConsenSys products or documentation, request support on [Discord](https://discord.gg/6cfyqRGbzq).
