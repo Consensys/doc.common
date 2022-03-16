@@ -59,6 +59,7 @@ JMeter
 jnacl
 Jubjub
 Kafka
+Kaleido
 [kK]alium
 [kK]eystore[s]?
 [kK]eytool[s]?
