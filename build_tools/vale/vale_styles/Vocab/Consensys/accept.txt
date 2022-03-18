@@ -93,9 +93,11 @@ PegaSys
 PoA
 Postgres
 PoW
+[pP]re
 [pP]reidentif(?:y|ied)
 Prometheus
 Protobuf
+Prysm
 Prysmatic
 Pyrmont
 [qQ]uorum
