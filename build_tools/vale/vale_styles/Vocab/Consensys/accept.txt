@@ -34,6 +34,7 @@ etcd
 EthSigner
 Ethereum
 Etherscan
+[fF]ailover
 Filecoin
 Ganache
 [gG]eth
