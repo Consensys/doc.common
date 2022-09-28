@@ -112,6 +112,7 @@ Rinkeby
 [rR]ollup[s]?
 Ropsten
 [sS]andbox(?:ing|ed)?
+Sepolia
 [sS]erializ(?:e|ing)
 [sS]erialization
 Schnorr
