@@ -31,15 +31,6 @@
       Questions or feedback? You can obtain paid professional support by <a href="{{config.extra.support.website}}">{{config.extra.support.company}}</a> at <a href="mailto:{{config.extra.support.email}}">{{config.extra.support.email}}</a>
   {% else %}
       Questions or feedback? You can discuss {% if config.extra.support.issues %}<a href="{{config.extra.support.issues}}">issues</a>{% endif %} and obtain free support on <a href="{{config.extra.support.channel}}">{{config.site_name}} {{config.extra.support.tool}} channel</a>.
-    {% if config.extra.support.email or config.extra.support.form %}
-          <br/>
-          For paid professional support by <a href="{{config.extra.support.website}}">{{config.extra.support.company}}</a>, contact us
-      {% if config.extra.support.form %}
-        on <a href="{{config.extra.support.form | url}}">{{config.site_name}} website</a>.
-      {% else %}
-        at <a href="mailto:{{config.extra.support.email}}">{{config.extra.support.email}}</a>.
-      {% endif %}
-    {% endif %}
   {% endif %}
 </div>
 
