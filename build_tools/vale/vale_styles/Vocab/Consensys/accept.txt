@@ -27,6 +27,7 @@ ConsenSys
 [dD]eserialization
 [dD]esynchronization
 Doctools
+[dD]oppelganger[s]?
 [eE]ncryptor[s]?
 [eE]ncrypt(?:ing|ed)?
 [eE]node[s]?
