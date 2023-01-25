@@ -32,6 +32,7 @@ Doctools
 [eE]ncrypt(?:ing|ed)?
 [eE]node[s]?
 etcd
+[eE]thdo
 EthSigner
 Ethereum
 Etherscan
